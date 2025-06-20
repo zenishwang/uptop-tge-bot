@@ -1,0 +1,23 @@
+{
+  "name": "uptop-tge-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "revoke": "node revoke.js",
+    "analyze": "node tools/analyze-calldata.js",
+    "test-signature": "node tools/signature-test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "p-limit": "^6.2.0",
+    "viem": "^2.31.3"
+  }
+}
